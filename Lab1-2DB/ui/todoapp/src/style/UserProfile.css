@@ -1,0 +1,89 @@
+/* UserProfile.css */
+
+/* Дополнительные стили для обертки всего контента */
+.user-profile {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center; /* Выравнивание по центру */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень блока */
+  }
+  
+  /* Стили для заголовка */
+  .user-profile h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Цвет заголовка */
+  }
+  
+  /* Стили для отдельных элементов информации о пользователе */
+  .user-profile div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555; /* Цвет текста */
+  }
+  
+  /* Стили для имени и фамилии (цвет и размер шрифта) */
+  .user-profile div.Name,
+  .user-profile div.Surname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff; /* Синий цвет */
+  }
+  
+  /* Стили для кнопки (можно изменить цвет и стили по своему усмотрению) */
+  .user-profile button {
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: #fff; /* Белый цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-profile button:hover {
+    background-color: #0056b3; /* Измененный цвет кнопки при наведении */
+  }
+  
+
+  /* Стили для заголовка "Client Orders" */
+h2 {
+  font-size: 24px;
+  color: #333; /* Цвет текста */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Стили для списка заказов */
+ul {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем внутренний отступ у списка */
+}
+
+/* Стили для элемента списка заказов */
+li {
+  background-color: #f9f9f9; /* Фоновый цвет элемента */
+  border: 1px solid #ddd; /* Граница элемента */
+  padding: 10px; /* Внутренний отступ элемента */
+  margin-bottom: 10px; /* Отступ снизу между элементами */
+}
+
+/* Стили для каждого span в элементе списка */
+li span {
+  display: block; /* Размещаем каждый span на новой строке */
+  font-weight: bold; /* Жирный шрифт */
+  margin-bottom: 5px; /* Отступ снизу между span-ами */
+}
+
+/* Дополнительные стили для каждого span, если нужно */
+li span.ticket_cost {
+  color: #007bff; /* Цвет для span с классом ticket_cost */
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}

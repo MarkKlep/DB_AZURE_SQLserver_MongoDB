@@ -1,0 +1,39 @@
+/* YourComponent.css */
+
+/* Style for the container div */
+.container-order-ticket {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the h2 heading */
+  .container-order-ticket h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the spans */
+  .container-order-ticket span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input element */
+  .container-order-ticket input[type='number'] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the date input */
+  .container-order-ticket input[type='date'] {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
